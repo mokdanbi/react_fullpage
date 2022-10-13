@@ -67,7 +67,7 @@ const Main = () => {
           return (
             <ReactFullpage.Wrapper>
               <div className="section">
-                <div className="case">Section 01 {profile.name}</div>
+                <div className="case">{profile.name} Portfolio</div>
               </div>
               {
                 portfolio.map((it, idx) => {
